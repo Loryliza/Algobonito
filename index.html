@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#07132e" />
+  <meta name="description" content="Una despedida hecha de recuerdos: la historia de Melody Silverlake y Gideon Umbraguell, escrita bajo las estrellas de Hogwarts." />
+  <title>Melody & Gideon — Lo que fuimos, lo que recordaré</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="starfield" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio"><span class="brand-mark">✦</span> M <span class="brand-amp">&</span> G</a>
+    <nav aria-label="Navegación"><a href="#capitulos">La historia</a><a href="#postales">Las postales</a><a href="#promesa">Lo que me llevo</a><a href="#carta">Mi despedida</a></nav>
+    <div class="audio-controls" aria-label="Controles de música">
+      <button class="sound-toggle" id="soundToggle" aria-label="Reproducir Coming Up Roses"><span id="soundIcon">▶</span><i id="soundLabel">Reproducir</i></button>
+      <div class="volume-controls">
+        <button class="volume-button" id="volumeDown" type="button" aria-label="Bajar volumen">−</button>
+        <input id="volumeSlider" type="range" min="0" max="100" value="70" aria-label="Volumen de la música" />
+        <button class="volume-button" id="volumeUp" type="button" aria-label="Subir volumen">+</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="eyebrow-line"></span> PARA DESPEDIRME CON CARIÑO</span>
+        <h1>Lo que fuimos<br /><em>vive en mí.</em></h1>
+        <p class="hero-text">Melody Silverlake y Gideon Umbraguell se encontraron por casualidad en Hogwarts. Esta es una despedida para honrar lo bonito, reconocer lo difícil y agradecer todo lo que compartimos.</p>
+        <a class="primary-button" href="#capitulos">Recordar lo que vivimos <span>↓</span></a>
+        <div class="house-tags"><span class="house gryffindor"><b>✦</b> GRYFFINDOR</span><span class="house-divider">✧</span><span class="house slytherin"><b>🐍</b> SLYTHERIN</span></div>
+      </div>
+      <div class="hero-art"><div class="moon"></div><div class="castle"><i></i><i></i><i></i><i></i><span class="castle-base"></span></div><div class="hero-frame"><img src="assets/melody-gideon-lago.png" alt="Melody y Gideon juntos frente al castillo, bajo la luna" /></div><span class="floating-spark spark-one">✧</span><span class="floating-spark spark-two">✦</span><span class="floating-spark spark-three">✧</span><div class="hero-caption">Gracias por haber coincidido conmigo <span>✦</span></div></div>
+      <a class="scroll-cue" href="#capitulos"><span></span> SIGUE LA HISTORIA</a>
+    </section>
+
+    <section class="intro-panel"><span class="panel-number">ANTES DE DECIR ADIÓS</span><p>No todos los encuentros están hechos para durar para siempre.<br /><em>Algunos llegan para dejarnos recuerdos que sí duran.</em></p><span class="quill">✒</span></section>
+
+    <section class="chapters section" id="capitulos">
+      <div class="section-heading"><span class="eyebrow">LAS PÁGINAS QUE SIEMPRE GUARDARÉ</span><h2>Antes de cerrar<br /><em>este capítulo.</em></h2><p>Quiero despedirme recordando con cariño lo que vivimos, sin olvidar que también hubo momentos difíciles.</p></div>
+      <div class="comic-grid">
+        <article class="comic-panel panel-wide"><div class="panel-image"><img src="assets/uniformes-hogwarts.png" alt="Melody y Gideon en los pasillos de Hogwarts" loading="lazy" /><span class="speech-bubble bubble-light">No sabía entonces<br />lo importante que serías.</span><span class="panel-badge">CAPÍTULO 01</span></div><div class="panel-text"><span class="chapter-kicker">EL DÍA QUE NOS CONOCIMOS</span><h3>Una casualidad que atesoro</h3><p>Melody Silverlake y Gideon Umbraguell se conocieron por casualidad en Hogwarts. Hoy miro aquel comienzo con cariño y agradezco que nuestros caminos se cruzaran.</p></div></article>
+        <article class="comic-panel panel-tall"><div class="panel-image"><img src="assets/baile-slytherin.png" alt="Melody y Gideon bailan juntos por primera vez" loading="lazy" /><span class="speech-bubble bubble-dark">Gracias por<br />esa primera pieza.</span><span class="panel-badge">CAPÍTULO 02</span></div><div class="panel-text"><span class="chapter-kicker">NUESTRO PRIMER BAILE</span><h3>Una noche para recordar</h3><p>Entre velas y música compartimos nuestro primer baile. Aún puedo guardar ese recuerdo con ternura, aunque hoy nuestros pasos sigan caminos distintos.</p></div></article>
+        <article class="comic-panel panel-tall"><div class="panel-image"><img src="assets/noche-juntos.png" alt="Melody y Gideon comparten un momento juntos" loading="lazy" /><span class="thought-bubble">Qué bonito fue<br />vivirlo contigo.</span><span class="panel-badge">CAPÍTULO 03</span></div><div class="panel-text"><span class="chapter-kicker">LOS DÍAS QUE COMPARTIMOS</span><h3>Risas que me acompañan</h3><p>Aventuras, conversaciones, risas y ratitos tranquilos. No todo fue perfecto, pero hubo momentos que siempre tendrán un lugar en mi memoria.</p></div></article>
+        <article class="comic-panel panel-tall photo-center"><div class="panel-image"><img src="assets/melody-gideon.png" alt="Melody y Gideon comparten un momento tranquilo en los jardines de Hogwarts" loading="lazy" /><span class="thought-bubble">Por un tiempo,<br />fuimos hogar.</span><span class="panel-badge">CAPÍTULO 04</span></div><div class="panel-text"><span class="chapter-kicker">UN LUGAR PARA NOSOTROS</span><h3>Lo que se sintió como hogar</h3><p>Entre los jardines y los pasillos del castillo hubo instantes en los que estar juntos bastaba. Hoy los guardo como parte de lo que fuimos.</p></div></article>
+        <article class="comic-panel panel-wide"><div class="panel-image"><img src="assets/abrazados.png" alt="Gideon abraza a Melody con cariño" loading="lazy" /><span class="speech-bubble bubble-light">Lo que vivimos<br />sí fue importante.</span><span class="panel-badge">CAPÍTULO 05</span></div><div class="panel-text"><span class="chapter-kicker">QUERERNOS Y APRENDER</span><h3>También nos equivocamos</h3><p>Hubo cariño, intentos y errores de los dos. No quiero idealizarlo todo; quiero agradecer lo bueno y aprender de aquello que nos dolió.</p></div></article>
+        <article class="comic-panel panel-wide panel-last"><div class="panel-image"><img src="assets/despedida.png" alt="Melody y Gideon se despiden con cariño" loading="lazy" /><span class="speech-bubble bubble-dark">Gracias por<br />haber estado.</span><span class="panel-badge">CAPÍTULO 06</span></div><div class="panel-text"><span class="chapter-kicker">HASTA AQUÍ, NUESTRA HISTORIA</span><h3>Me despido con cariño</h3><p>No sé qué traerá la vida, pero hoy necesito dejar ir lo que fuimos. Gracias por cada momento; guardaré lo vivido como parte importante de mi historia.</p></div></article>
+      </div>
+    </section>
+
+    <section class="postcards section" id="postales">
+      <div class="section-heading"><span class="eyebrow">NUESTRO ÁLBUM DE RECUERDOS</span><h2>Antes de cerrar<br /><em>este capítulo.</em></h2><p>Junté aquí todas nuestras imágenes para guardar lo vivido antes de despedirnos.</p></div>
+      <div class="postcard-grid">
+        <figure class="postcard postcard-feature"><img src="assets/gideon-recuerdo.png" alt="Gideon recuerda con cariño a Melody" loading="lazy"></figure>
+        <figure class="postcard postcard-large"><img src="assets/melody-gideon-lago.png" alt="Melody y Gideon junto al lago de Hogwarts" loading="lazy"></figure>
+        <figure class="postcard"><img src="assets/uniformes-hogwarts.png" alt="Melody y Gideon en Hogwarts" loading="lazy"></figure>
+        <figure class="postcard"><img src="assets/baile-slytherin.png" alt="Melody y Gideon en su primer baile" loading="lazy"></figure>
+        <figure class="postcard postcard-wide"><img src="assets/noche-juntos.png" alt="Melody y Gideon compartiendo un momento tranquilo" loading="lazy"></figure>
+        <figure class="postcard"><img src="assets/melody-gideon.png" alt="Melody y Gideon juntos en Hogwarts" loading="lazy"></figure>
+        <figure class="postcard"><img src="assets/abrazados.png" alt="Gideon abraza a Melody" loading="lazy"></figure>
+        <figure class="postcard"><img src="assets/despedida.png" alt="Un reencuentro de Melody y Gideon" loading="lazy"></figure>
+        <figure class="postcard postcard-large"><img src="assets/noche-estrellada.png" alt="Melody y Gideon bajo las estrellas" loading="lazy"></figure>
+        <figure class="postcard"><img src="assets/tokio-ramen-1.png" alt="Una cena de ramen entre luces de Tokio" loading="lazy"></figure>
+        <figure class="postcard"><img src="assets/tokio-ramen-2.png" alt="Una noche de ramen en Japón" loading="lazy"></figure>
+        <figure class="postcard"><img src="assets/baile-recuerdo.png" alt="Melody y Gideon en una velada elegante" loading="lazy"></figure>
+        <figure class="postcard postcard-wide"><img src="assets/tren-hogwarts.png" alt="Melody y Gideon en un viaje en tren" loading="lazy"></figure>
+        <figure class="postcard"><img src="assets/jardin-flores.png" alt="Melody y Gideon entre flores" loading="lazy"></figure>
+        <figure class="postcard"><img src="assets/estacion-kyoto.png" alt="Melody y Gideon en una estación de tren" loading="lazy"></figure>
+        <figure class="postcard"><img src="assets/noche-tokio.png" alt="Un paseo nocturno por las calles de Tokio" loading="lazy"></figure>
+        <figure class="postcard postcard-large"><img src="assets/abrazo-tokio.png" alt="Melody y Gideon se abrazan en Tokio" loading="lazy"></figure>
+        <figure class="postcard"><img src="assets/festival-japon.png" alt="Melody y Gideon en un festival japonés" loading="lazy"></figure>
+        <figure class="postcard"><img src="assets/paseo-kyoto.png" alt="Melody y Gideon pasean por Kioto" loading="lazy"></figure>
+        <figure class="postcard"><img src="assets/abrazo-atardecer.png" alt="Melody y Gideon abrazados al atardecer" loading="lazy"></figure>
+        <figure class="postcard"><img src="assets/caricia-recuerdo.png" alt="Melody acaricia el cabello de Gideon" loading="lazy"></figure>
+        <figure class="postcard postcard-wide"><img src="assets/ultimo-atardecer.png" alt="Melody y Gideon frente al atardecer" loading="lazy"></figure>
+      </div>
+    </section>
+
+    <section class="night-quote"><span class="quote-star">✦</span><p>“No me llevo un para siempre,<br /><em>me llevo lo bonito que vivimos.”</em></p><span class="quote-credit">— Con cariño, Melody</span></section>
+
+    <section class="promise section" id="promesa"><div class="promise-art"><img src="assets/noche-estrellada.png" alt="Melody y Gideon mirando las estrellas juntos" loading="lazy" /><span class="photo-note">UN RECUERDO QUE ME ACOMPAÑA</span></div><div class="promise-copy"><span class="eyebrow">PARA XAVI, ANTES DE PARTIR</span><h2>Gracias por lo vivido.<br /><em>Ahora toca soltar.</em></h2><p>Gracias por crear conmigo este mundo, por cada escena, cada risa y cada momento que hizo que Melody y Gideon se sintieran tan reales. Fuiste alguien muy importante para mí. Hoy me despido con gratitud y me permito seguir adelante, guardando con cariño lo que compartimos.</p><div class="signature">Con cariño y gratitud, <strong>tu Melody ♡</strong></div><span class="wand-doodle">╱✧</span></div></section>
+
+    <section class="letter-section section" id="carta"><div class="letter-card"><span class="letter-seal">✦</span><span class="eyebrow">MIS ÚLTIMAS PALABRAS PARA TI</span><h2>Una carta para<br /><em>despedirme.</em></h2><p>Xavi, aquí dejo lo que necesitaba decirte antes de cerrar este capítulo.</p><button id="openLetter" class="primary-button">Leer mi despedida <span>✉</span></button><span class="letter-decoration deco-left">✧</span><span class="letter-decoration deco-right">✦</span></div></section>
+  </main>
+
+  <footer><a class="brand" href="#inicio"><span class="brand-mark">✦</span> M <span class="brand-amp">&</span> G</a><span>GRACIAS POR HABER FORMADO PARTE DE MI HISTORIA <span class="footer-heart">♥</span></span><span>CON CARIÑO, MELODY</span></footer>
+
+  <div class="modal" id="letterModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-backdrop" data-close></div><article class="letter-paper"><button class="close-modal" id="closeLetter" aria-label="Cerrar carta">×</button><span class="letter-top">✦ · CARTA POR LECHUZA · ✦</span><h2 id="modalTitle">Xavi:</h2>
+    <p>No sé muy bien cómo empezar esta carta, porque hay tantas cosas que quisiera decirte y, al mismo tiempo, siento que ya no quedan muchas palabras que puedan cambiar lo que está pasando entre nosotros.</p>
+    <p>Quiero que sepas que conocerte fue algo bonito para mí. Llegaste a mi vida y, sin darme cuenta, empezaste a ocupar un lugar muy especial. Me enamoré de tu forma de ser, de nuestras conversaciones, de los momentos que compartimos y de todas esas pequeñas cosas que quizás para ti fueron simples, pero que para mí significaron muchísimo.</p>
+    <p>No voy a decir que todo fue perfecto, porque no lo fue. También hubo momentos en los que me sentí triste, confundida y lastimada. Hubo cosas que no supimos manejar, diferencias que nos hicieron daño y situaciones en las que probablemente ninguno de los dos supo cómo actuar. Pero, a pesar de todo, nunca voy a negar lo bonito que sentí por ti ni las ganas que tuve de que las cosas funcionaran.</p>
+    <p>Sé que últimamente no te encuentras bien, que estás pasando por momentos difíciles y que quizás ahora mismo no tienes la capacidad emocional para pensar en una relación o en un futuro con alguien. No te culpo por eso. Nunca quisiera que estuvieras conmigo por compromiso, por miedo a perderme o porque sientas que tienes que corresponder a lo que yo siento.</p>
+    <p>Pero también tengo que pensar en mí. No puedo quedarme esperando indefinidamente a que algún día las cosas sean diferentes, ni vivir aferrada a la posibilidad de que volvamos a ser lo que alguna vez fuimos. Yo también merezco tranquilidad, seguridad y sentir que alguien quiere construir algo conmigo.</p>
+    <p>Me hubiera gustado que las cosas fueran diferentes. Me hubiera gustado que pudiéramos superar nuestras dificultades, crecer juntos y descubrir hasta dónde podíamos llegar. Me hubiera gustado que algún día pudiéramos mirar atrás y sentir orgullo de no habernos rendido tan fácilmente.</p>
+    <p>Pero entiendo que a veces querer a alguien no es suficiente para que dos personas puedan estar juntas.</p>
+    <p>No me voy porque hayas dejado de importarme. Me voy porque también necesito aprender a quererme, a no insistir donde no hay espacio para los dos y a aceptar que no siempre podemos tener aquello que tanto deseamos.</p>
+    <p>Espero sinceramente que encuentres esa tranquilidad que tanto necesitas, que puedas sanar todo aquello que llevas dentro y que vuelvas a sentirte bien contigo mismo. Deseo que la vida te regale cosas bonitas, que cumplas tus sueños y que nunca pierdas esa parte de ti que me hizo quererte.</p>
+    <p>Gracias por los momentos, por las risas, por las conversaciones y por haber formado parte de mi vida. No quiero recordar lo nuestro únicamente por cómo terminó, sino también por todo lo bonito que alguna vez existió.</p>
+    <p>Quizás nuestros caminos vuelvan a cruzarse algún día, cuando ambos estemos en otro momento de nuestras vidas. Quizás no. Y aunque me cueste aceptarlo, también está bien.</p>
+    <p>Te quise de verdad, Xavi. Y precisamente porque lo que sentí fue sincero, quiero despedirme sin rencor, sin reproches y deseándote lo mejor.</p>
+    <p>Cuídate mucho. Espero que algún día puedas mirar hacia atrás y recordar que hubo una persona que te quiso muchísimo y que, por encima de todo, quería verte bien.</p>
+    <p class="letter-signoff">Con cariño. <span>❤️</span></p>
+    <div class="letter-flower">✿</div></article></div>
+  <audio id="backgroundMusic" src="assets/coming-up-roses-sub-espanol.mp3" loop preload="none"></audio>
+  <div id="heartsLayer" class="hearts-layer" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
